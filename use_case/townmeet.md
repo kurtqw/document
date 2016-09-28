@@ -3,9 +3,11 @@
 
 # 系统功能需求
 ## 系统功能架构
-见townmeet.mdj文件
+![](http://upload-images.jianshu.io/upload_images/2672763-075a3acd8d213972.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 用例1：匹配聊天者
+<strong>用例图</strong>:
+![](http://upload-images.jianshu.io/upload_images/2672763-b10a1c369ff72c50.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <strong>范围</strong>:系统用例  
 <strong>级别</strong>: 用户目标级别  
 <strong>用例角色</strong>: 所有访问网站的人  
@@ -42,12 +44,6 @@
 
 * 匹配时间尽量保证在半分钟之内
 
-<strong>技术和数据变元表：</strong>
-
-* <p style="color:red">支持的浏览器版本.....</p>
-
-<strong>发生频率：</strong> 可能会不断地发生
-
 <strong>用例业务相关数据：</strong>
   * 用户ID
   * 用户名
@@ -56,6 +52,8 @@
 
 
 ## 用例2:聊天
+<strong>用例图</strong>:
+![](http://upload-images.jianshu.io/upload_images/2672763-691ab66060993d97.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <strong>范围</strong>:系统用例  
 <strong>级别</strong>: 用户目标级别  
 <strong>用例角色</strong>: 两个匹配成功的人  
@@ -102,19 +100,14 @@
 * 聊天过程中消息的实时性
 * 聊天窗口不宜过大
 * <p style="color:red">聊天内容的过滤</p>
-
-<strong>技术和数据变元表：</strong>
-
-* <p style="color:red">支持的浏览器版本.....</p>
-
-<strong>发生频率：</strong> 可能会不断地发生
-
 <strong>用例业务相关数据：</strong>
   * 用户ID
   * 用户名
   * 聊天消息
 
 ## 用例3:热点推送
+<strong>用例图</strong>:
+![](http://upload-images.jianshu.io/upload_images/2672763-6b736bb081d4a655.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <strong>范围</strong>:系统用例  
 <strong>级别</strong>: 用户目标级别  
 <strong>用例角色</strong>: 任何处在聊天页面的用户  
@@ -152,13 +145,6 @@
 <strong>非功能性需求：</strong>  
 
 * 推送新闻的时效性
-
-<strong>技术和数据变元表：</strong>
-
-* <p style="color:red">支持的浏览器版本.....</p>
-
-<strong>发生频率：</strong> 可能会不断地发生
-
 <strong>用例业务相关数据：</strong>
   * 热点新闻URL
   * 热点新闻Title
